@@ -184,7 +184,7 @@ async function loadConfig() {
   return {
     siteTitle: config.siteTitle || "Wardrobe Legal",
     brandName: config.brandName || "Wardrobe",
-    supportEmail: config.supportEmail || "support@your-domain.com",
+    supportEmail: config.supportEmail || "",
     baseUrl: normalizeBaseUrl(config.baseUrl || "https://your-domain.com"),
   };
 }
@@ -194,8 +194,6 @@ function createSupportContent(config) {
     en: `
 <h1>Support</h1>
 <p>${config.brandName} support is available for account, privacy, deletion, subscription, and Community questions.</p>
-<h2>Contact</h2>
-<p>Email: <a href="mailto:${config.supportEmail}">${config.supportEmail}</a></p>
 <h2>Common Requests</h2>
 <ul>
   <li>Account access or login issues</li>
@@ -210,8 +208,6 @@ function createSupportContent(config) {
     tr: `
 <h1>Destek</h1>
 <p>${config.brandName} desteği hesap, gizlilik, silme, abonelik ve Community soruları için kullanılabilir.</p>
-<h2>İletişim</h2>
-<p>E-posta: <a href="mailto:${config.supportEmail}">${config.supportEmail}</a></p>
 <h2>Yaygın Talepler</h2>
 <ul>
   <li>Hesap erişimi veya giriş sorunları</li>
@@ -440,7 +436,7 @@ async function renderMarkdownFile(filePath, config) {
   return markdownToHtml(
     raw
       .replaceAll("https://your-domain.com", config.baseUrl)
-      .replaceAll("support@your-domain.com", config.supportEmail)
+      .replaceAll("support@your-domain.com", config.supportEmail || "")
   );
 }
 

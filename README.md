@@ -12,8 +12,9 @@ This repository is the standalone public legal site for Wardrobe.
 
 Update [site.config.json](/Users/main/Documents/GitHub/legal/site.config.json) with the real production values:
 
-- `supportEmail`
 - `baseUrl`
+
+If you later want a public contact channel, you can extend the support page with a form URL or email.
 
 ## Build
 

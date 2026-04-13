@@ -28,5 +28,4 @@ Bu durumda:
 ## Destek
 
 Silme ile ilgili sorular için:
-- `https://your-domain.com/support`
-
+- `https://legal-ycupufs-projects.vercel.app/support`

@@ -28,5 +28,4 @@ In that case:
 ## Support
 
 If you have questions about deletion:
-- `https://your-domain.com/support`
-
+- `https://legal-ycupufs-projects.vercel.app/support`

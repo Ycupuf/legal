@@ -86,6 +86,5 @@ Hukukun izin verdiği ölçüde Wardrobe ve işletmecileri, hizmetin kullanımı
 
 Destek veya hukuki sorular için:
 
-- Destek URL: `https://your-domain.com/support`
-- Koşullar URL: `https://your-domain.com/terms`
-
+- Destek URL: `https://legal-ycupufs-projects.vercel.app/support`
+- Koşullar URL: `https://legal-ycupufs-projects.vercel.app/terms`

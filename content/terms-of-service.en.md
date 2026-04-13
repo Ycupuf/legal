@@ -86,6 +86,5 @@ To the extent permitted by law, Wardrobe and its operators are not liable for in
 
 For support or legal questions:
 
-- Support URL: `https://your-domain.com/support`
-- Terms URL: `https://your-domain.com/terms`
-
+- Support URL: `https://legal-ycupufs-projects.vercel.app/support`
+- Terms URL: `https://legal-ycupufs-projects.vercel.app/terms`

@@ -106,6 +106,5 @@ Bu Gizlilik Politikası zaman zaman güncellenebilir. Güncel sürüm uygulama i
 
 Gizlilik ve veri konuları için:
 
-- Destek URL: `https://your-domain.com/support`
-- Gizlilik Politikası URL: `https://your-domain.com/privacy`
-
+- Destek URL: `https://legal-ycupufs-projects.vercel.app/support`
+- Gizlilik Politikası URL: `https://legal-ycupufs-projects.vercel.app/privacy`

@@ -106,6 +106,5 @@ We may update this Privacy Policy from time to time. The latest version will be 
 
 For privacy or data questions, contact:
 
-- Support URL: `https://your-domain.com/support`
-- Privacy URL: `https://your-domain.com/privacy`
-
+- Support URL: `https://legal-ycupufs-projects.vercel.app/support`
+- Privacy URL: `https://legal-ycupufs-projects.vercel.app/privacy`

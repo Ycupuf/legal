@@ -195,6 +195,12 @@ function createSupportContent(config) {
     en: `
 <h1>Support</h1>
 <p>${config.brandName} support is available for account, privacy, deletion, subscription, and Community questions.</p>
+<p>For public policy pages, use the links below:</p>
+<ul>
+  <li><a href="${config.baseUrl}/privacy">Privacy Policy</a></li>
+  <li><a href="${config.baseUrl}/terms">Terms of Service</a></li>
+  <li><a href="${config.baseUrl}/account-deletion">Account Deletion</a></li>
+</ul>
 <h2>Common Requests</h2>
 <ul>
   <li>Account access or login issues</li>
@@ -209,6 +215,12 @@ function createSupportContent(config) {
     tr: `
 <h1>Destek</h1>
 <p>${config.brandName} desteği hesap, gizlilik, silme, abonelik ve Community soruları için kullanılabilir.</p>
+<p>Public policy sayfaları için aşağıdaki bağlantıları kullanabilirsiniz:</p>
+<ul>
+  <li><a href="${config.baseUrl}/privacy">Gizlilik Politikası</a></li>
+  <li><a href="${config.baseUrl}/terms">Kullanım Koşulları</a></li>
+  <li><a href="${config.baseUrl}/account-deletion">Hesap Silme</a></li>
+</ul>
 <h2>Yaygın Talepler</h2>
 <ul>
   <li>Hesap erişimi veya giriş sorunları</li>

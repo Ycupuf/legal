@@ -1,6 +1,6 @@
 # Kullanım Koşulları
 
-Son güncelleme: 12 Nisan 2026
+Son güncelleme: 13 Nisan 2026
 
 Bu Kullanım Koşulları, Wardrobe mobil uygulamasını ve ilgili hizmetleri kullanımınızı düzenler.
 

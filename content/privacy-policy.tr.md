@@ -1,6 +1,6 @@
 # Gizlilik Politikası
 
-Son güncelleme: 12 Nisan 2026
+Son güncelleme: 13 Nisan 2026
 
 Bu Gizlilik Politikası, Wardrobe mobil uygulamasını ve ilgili hizmetleri kullandığınızda Wardrobe'un hangi verileri topladığını, nasıl kullandığını, nasıl sakladığını ve nasıl paylaştığını açıklar.
 

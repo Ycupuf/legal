@@ -1,6 +1,6 @@
 # Hesap Silme Politikası
 
-Son güncelleme: 12 Nisan 2026
+Son güncelleme: 13 Nisan 2026
 
 Hesap silme işlemini Wardrobe uygulaması içinden başlatabilirsiniz.
 

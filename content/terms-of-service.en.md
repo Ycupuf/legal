@@ -1,6 +1,6 @@
 # Terms of Service
 
-Last updated: April 12, 2026
+Last updated: April 13, 2026
 
 These Terms of Service govern your use of the Wardrobe mobile application and related services.
 

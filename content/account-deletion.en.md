@@ -1,6 +1,6 @@
 # Account Deletion Policy
 
-Last updated: April 12, 2026
+Last updated: April 13, 2026
 
 You can request account deletion from inside the Wardrobe app.
 

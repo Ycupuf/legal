@@ -15,6 +15,7 @@ When account deletion succeeds, Wardrobe removes:
 - your wardrobe item records
 - your private wardrobe item photos
 - your saved private data and private generated data linked to your account
+- user-scoped private storage content associated with your wardrobe uploads
 
 ## What may remain
 
@@ -24,8 +25,10 @@ In that case:
 - the account relationship is removed
 - the record may remain in the Community pool
 - private wardrobe item photos are not made public through this process
+- generated image assets required to keep that Community content available may also remain
 
 ## Support
 
-If you have questions about deletion:
+If you have questions about deletion, use Wardrobe's official support channel:
 - `https://legal-ycupufs-projects.vercel.app/support`
+- `help@wardrobeinfo.com`

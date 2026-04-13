@@ -29,7 +29,9 @@ BFMW ile üretilen kombinler otomatik olarak Community akışına eklenir. Bu ya
 
 Community gösterimi izleyene göre gender presentation bağlamı ve aktif tema ile filtrelenir; ancak generated outfit'lar ortak global Community havuzunda tutulur.
 
-Hizmeti kullanarak, Wardrobe'a generated outfit'ları bu sistem tasarımı kapsamında uygulama içindeki Community deneyiminde barındırma, gösterme ve dağıtma yetkisi vermiş olursunuz.
+Hizmeti kullanarak, Wardrobe'a generated outfit'ları bu sistem tasarımı kapsamında uygulama içindeki Community deneyiminde barındırma, gösterme, dağıtma, önbelleğe alma ve erişilebilir kılma yetkisi vermiş olursunuz.
+
+Community'de yayınlanan generated outfit'lar private wardrobe içeriği olarak değerlendirilmez. Bu içerikler Community akışında diğer kullanıcılara gösterilebilir ve hizmetin işletilmesi için kullanılan public veya geniş erişilebilir asset URL'leri üzerinden sunulabilir.
 
 ## 5. Yüklediğiniz İçerikteki Haklarınız
 
@@ -40,6 +42,7 @@ Wardrobe'a şu amaçlarla lisans vermiş olursunuz:
 - yüklenen materyalleri analiz etmek
 - türev kombin çıktıları üretmek
 - generated output'ları bu Koşullar ve Gizlilik Politikası doğrultusunda Community akışında göstermek
+- Community işlevi için makul ölçüde gerekli teknik kopyaları, önbellekleri, dönüşümleri ve teslim URL'lerini oluşturmak ve sunmak
 
 ## 6. Yasak Davranışlar
 
@@ -72,6 +75,8 @@ Hesabınızı sildiğinizde, private hesap bağlantılı veriler uygulamanın si
 
 Community'de yayınlanan generated outfit'lar, hesap bağlantısı kaldırılmış şekilde de-identify edilmiş olarak hesap silindikten sonra da kalabilir.
 
+Community'de kalmaya devam eden generated outfit'lar varsa, Wardrobe bu içeriği çalışır halde tutmak için gerekli associated generated image asset'lerini de saklamaya ve sunmaya devam edebilir.
+
 ## 11. Feragat
 
 Hizmet, hukukun izin verdiği ölçüde "olduğu gibi" ve "mevcut olduğu kadarıyla" sunulur.
@@ -84,7 +89,8 @@ Hukukun izin verdiği ölçüde Wardrobe ve işletmecileri, hizmetin kullanımı
 
 ## 13. İletişim
 
-Destek veya hukuki sorular için:
+Destek veya hukuki sorular için Wardrobe'un resmi destek kanalını kullanın:
 
 - Destek URL: `https://legal-ycupufs-projects.vercel.app/support`
+- Destek E-postası: `help@wardrobeinfo.com`
 - Koşullar URL: `https://legal-ycupufs-projects.vercel.app/terms`

@@ -195,6 +195,7 @@ function createSupportContent(config) {
     en: `
 <h1>Support</h1>
 <p>${config.brandName} support is available for account, privacy, deletion, subscription, and Community questions.</p>
+<p>You can contact support directly at <a href="mailto:${config.supportEmail}">${config.supportEmail}</a>.</p>
 <p>For public policy pages, use the links below:</p>
 <ul>
   <li><a href="${config.baseUrl}/privacy">Privacy Policy</a></li>
@@ -215,6 +216,7 @@ function createSupportContent(config) {
     tr: `
 <h1>Destek</h1>
 <p>${config.brandName} desteği hesap, gizlilik, silme, abonelik ve Community soruları için kullanılabilir.</p>
+<p>Doğrudan destek için <a href="mailto:${config.supportEmail}">${config.supportEmail}</a> adresine yazabilirsiniz.</p>
 <p>Public policy sayfaları için aşağıdaki bağlantıları kullanabilirsiniz:</p>
 <ul>
   <li><a href="${config.baseUrl}/privacy">Gizlilik Politikası</a></li>

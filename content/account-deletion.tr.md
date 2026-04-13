@@ -15,6 +15,7 @@ Hesap silme başarılı olduğunda Wardrobe şunları kaldırır:
 - wardrobe item kayıtlarınız
 - private wardrobe fotoğraflarınız
 - hesabınıza bağlı private kayıtlar ve private generated data
+- dolap yüklemelerinizle ilişkili kullanıcıya özel private storage içeriği
 
 ## Neler kalabilir
 
@@ -24,8 +25,10 @@ Bu durumda:
 - hesap ilişkisi kaldırılır
 - kayıt Community havuzunda kalabilir
 - private wardrobe fotoğrafları bu süreçte public hale gelmez
+- içeriğin Community'de erişilebilir kalması için gerekli generated image asset'leri de kalabilir
 
 ## Destek
 
-Silme ile ilgili sorular için:
+Silme ile ilgili sorular için Wardrobe'un resmi destek kanalını kullanın:
 - `https://legal-ycupufs-projects.vercel.app/support`
+- `help@wardrobeinfo.com`

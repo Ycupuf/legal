@@ -45,7 +45,7 @@ We use information to:
 Wardrobe item photos and generated outfits are treated differently.
 
 ### Wardrobe item photos
-Wardrobe item photos are private and are not displayed publicly in the Community feed.
+Wardrobe item photos are private account content. They are stored in user-scoped storage paths and are not displayed publicly in the Community feed.
 
 ### Generated outfits
 BFMW-generated outfits are automatically published to the Community feed. We do not ask for a separate in-app opt-in for this behavior.
@@ -56,6 +56,11 @@ Community visibility is filtered for viewers based on:
 
 This means generated outfits are stored in a global Community pool, but viewers do not see the entire pool without filtering.
 
+Community-published generated outfits should be treated as public Community content rather than private account content. In practice:
+- other users can view them inside the app's Community experience when they match the applicable filters
+- generated outfit images may be served from public or broadly accessible URLs used to operate the Community experience
+- you should not upload or generate content through BFMW if you expect Community-published generated outfits to remain private
+
 ## 4. How We Share Information
 
 We may share or process information with service providers that help us run the app, including:
@@ -63,6 +68,8 @@ We may share or process information with service providers that help us run the 
 - OpenAI, for image generation and outfit-related AI processing
 - RevenueCat, for subscription and entitlement processing
 - Apple App Store and Google Play billing systems, when subscription purchases or restorations are involved
+
+We also make Community-published generated outfits available to other users as part of the product's Community functionality, subject to the filtering logic described above.
 
 We do not publicly display your wardrobe item photos as part of the Community feed.
 
@@ -85,6 +92,7 @@ When you delete your account:
 - your wardrobe items and private uploaded wardrobe images are removed
 - private generated data linked to your account is removed
 - Community-published generated outfits may remain available in de-identified form, without your account identity attached
+- public or broadly accessible generated outfit image URLs that were created for Community operation may continue to resolve for Community content that remains available
 
 ## 7. Security
 
@@ -104,7 +112,8 @@ We may update this Privacy Policy from time to time. The latest version will be 
 
 ## 11. Contact
 
-For privacy or data questions, contact:
+For privacy or data questions, use Wardrobe's official support channel:
 
 - Support URL: `https://legal-ycupufs-projects.vercel.app/support`
+- Support Email: `help@wardrobeinfo.com`
 - Privacy URL: `https://legal-ycupufs-projects.vercel.app/privacy`

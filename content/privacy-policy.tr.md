@@ -45,7 +45,7 @@ Verileri şu amaçlarla kullanırız:
 Wardrobe item fotoğrafları ile generated outfit'lar aynı şekilde ele alınmaz.
 
 ### Wardrobe item fotoğrafları
-Wardrobe item fotoğrafları özeldir ve Community akışında herkese açık gösterilmez.
+Wardrobe item fotoğrafları private hesap içeriğidir. Kullanıcıya özel storage path'lerinde tutulur ve Community akışında herkese açık gösterilmez.
 
 ### Generated outfit'lar
 BFMW ile üretilen kombinler otomatik olarak Community akışına eklenir. Bu davranış için ayrıca uygulama içi bir opt-in istemeyiz.
@@ -56,6 +56,11 @@ Community görünürlüğü izleyene göre filtrelenir:
 
 Bu nedenle generated outfit'lar global bir Community havuzunda tutulur; ancak her kullanıcı tüm havuzu filtresiz görmez.
 
+Community'de yayınlanan generated outfit'lar private hesap içeriği olarak değil, public Community içeriği olarak değerlendirilmelidir. Uygulamada bu şu anlama gelir:
+- ilgili filtrelerle eşleşen diğer kullanıcılar bu içerikleri uygulama içindeki Community deneyiminde görebilir
+- generated outfit görselleri, Community deneyimini işletmek için kullanılan public veya geniş erişilebilir URL'ler üzerinden sunulabilir
+- BFMW ile private kalmasını beklediğiniz içerikleri üretmemeli veya yüklememelisiniz
+
 ## 4. Verileri Kimlerle İşliyoruz
 
 Hizmeti çalıştırmak için verileri aşağıdaki servis sağlayıcılarla işleyebilir veya paylaşabiliriz:
@@ -63,6 +68,8 @@ Hizmeti çalıştırmak için verileri aşağıdaki servis sağlayıcılarla iş
 - OpenAI: görsel üretim ve kombinle ilgili yapay zeka işlemleri
 - RevenueCat: abonelik ve entitlement yönetimi
 - Apple App Store ve Google Play faturalandırma sistemleri: abonelik satın alma veya geri yükleme işlemleri sırasında
+
+Ayrıca Community'de yayınlanan generated outfit'ları, yukarıda açıklanan filtreleme mantığına tabi olarak ürünün Community işlevi kapsamında diğer kullanıcılara sunarız.
 
 Wardrobe item fotoğraflarınızı Community akışında herkese açık göstermeyiz.
 
@@ -85,6 +92,7 @@ Hesabınızı sildiğinizde:
 - wardrobe item'larınız ve özel yüklediğiniz dolap görselleri kaldırılır
 - hesabınıza bağlı private generated data kaldırılır
 - Community'de yayınlanmış generated outfit'lar, hesap kimliği kaldırılmış şekilde kalmaya devam edebilir
+- Community'de kalmaya devam eden içeriklere ait public veya geniş erişilebilir generated outfit URL'leri de çalışmaya devam edebilir
 
 ## 7. Güvenlik
 
@@ -104,7 +112,8 @@ Bu Gizlilik Politikası zaman zaman güncellenebilir. Güncel sürüm uygulama i
 
 ## 11. İletişim
 
-Gizlilik ve veri konuları için:
+Gizlilik ve veri konuları için Wardrobe'un resmi destek kanalını kullanın:
 
 - Destek URL: `https://legal-ycupufs-projects.vercel.app/support`
+- Destek E-postası: `help@wardrobeinfo.com`
 - Gizlilik Politikası URL: `https://legal-ycupufs-projects.vercel.app/privacy`

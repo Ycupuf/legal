@@ -29,7 +29,9 @@ BFMW-generated outfits are automatically published to the Community feed. Wardro
 
 Community delivery is filtered for viewers based on gender presentation context and active app theme, but generated outfits are stored in a shared global Community pool.
 
-By using the service, you authorize Wardrobe to host, display, and distribute generated outfits within the app's Community experience under this system design.
+By using the service, you authorize Wardrobe to host, display, distribute, cache, and make available generated outfits within the app's Community experience under this system design.
+
+Community-published generated outfits are not treated as private wardrobe content. They may be visible to other users in the Community feed and may be delivered through public or broadly accessible asset URLs used to operate the service.
 
 ## 5. Your Rights in Uploaded Content
 
@@ -40,6 +42,7 @@ You grant Wardrobe a license to:
 - analyze uploaded materials
 - generate derivative outfit outputs
 - display generated outputs in the Community feed as described in these Terms and the Privacy Policy
+- create and serve the technical copies, caches, transformations, and delivery URLs reasonably required for Community functionality
 
 ## 6. Prohibited Conduct
 
@@ -72,6 +75,8 @@ When you delete your account, private account-linked data is removed under the a
 
 Community-published generated outfits may remain available in de-identified form after account deletion, with the account relationship removed.
 
+If Community-published generated outfits remain available after account deletion, Wardrobe may also continue to retain and serve the associated generated image assets needed to operate that remaining Community content.
+
 ## 11. Disclaimers
 
 The service is provided on an "as is" and "as available" basis to the extent permitted by law.
@@ -84,7 +89,8 @@ To the extent permitted by law, Wardrobe and its operators are not liable for in
 
 ## 13. Contact
 
-For support or legal questions:
+For support or legal questions, use Wardrobe's official support channel:
 
 - Support URL: `https://legal-ycupufs-projects.vercel.app/support`
+- Support Email: `help@wardrobeinfo.com`
 - Terms URL: `https://legal-ycupufs-projects.vercel.app/terms`

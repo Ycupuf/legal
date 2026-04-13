@@ -6,7 +6,7 @@ This repository is the standalone public legal site for Wardrobe.
 
 - `content/`: source policy documents in English and Turkish
 - `scripts/build-legal-site.mjs`: static site generator
-- repo root output: deployable static pages and assets
+- `public/`: deployable static pages and assets after build
 
 ## Before publishing
 
@@ -22,19 +22,19 @@ If you later want a public contact channel, you can extend the support page with
 npm run build
 ```
 
-This generates the deployable site directly in the repository root:
+This generates the deployable site into `public/`:
 
-- `/index.html`
-- `/privacy/`
-- `/terms/`
-- `/account-deletion/`
-- `/support/`
-- `/tr/...`
-- `/assets/styles.css`
-- `/.nojekyll`
+- `public/index.html`
+- `public/privacy/`
+- `public/terms/`
+- `public/account-deletion/`
+- `public/support/`
+- `public/tr/...`
+- `public/assets/styles.css`
+- `public/.nojekyll`
 
 ## Deploy
 
 You can deploy this repository as a static site on Vercel, Netlify, Cloudflare Pages, or GitHub Pages.
 
-If the host asks for an output directory, use the repository root after running the build.
+On Vercel, the output directory is `public`.

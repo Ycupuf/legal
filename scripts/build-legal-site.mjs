@@ -2,6 +2,7 @@ import fs from "node:fs/promises";
 import path from "node:path";
 
 const repoRoot = process.cwd();
+const outputRoot = path.join(repoRoot, "public");
 const contentDir = path.join(repoRoot, "content");
 const configPath = path.join(repoRoot, "site.config.json");
 
@@ -427,7 +428,7 @@ async function writeFile(filePath, contents) {
 
 async function cleanOutput() {
   for (const relativePath of outputPaths) {
-    await fs.rm(path.join(repoRoot, relativePath), { recursive: true, force: true });
+    await fs.rm(path.join(outputRoot, relativePath), { recursive: true, force: true });
   }
 }
 
@@ -445,11 +446,11 @@ async function main() {
   const pages = createPages(config);
 
   await cleanOutput();
-  await ensureDir(path.join(repoRoot, "assets"));
-  await writeFile(path.join(repoRoot, "assets", "styles.css"), css.trim());
+  await ensureDir(path.join(outputRoot, "assets"));
+  await writeFile(path.join(outputRoot, "assets", "styles.css"), css.trim());
 
-  await writeFile(path.join(repoRoot, "index.html"), renderHome({ config, pages, language: "en" }));
-  await writeFile(path.join(repoRoot, "tr", "index.html"), renderHome({ config, pages, language: "tr" }));
+  await writeFile(path.join(outputRoot, "index.html"), renderHome({ config, pages, language: "en" }));
+  await writeFile(path.join(outputRoot, "tr", "index.html"), renderHome({ config, pages, language: "tr" }));
 
   for (const language of ["en", "tr"]) {
     for (const page of pages[language]) {
@@ -464,14 +465,14 @@ async function main() {
       });
       const pageDir =
         language === "en"
-          ? path.join(repoRoot, page.slug)
-          : path.join(repoRoot, "tr", page.slug);
+          ? path.join(outputRoot, page.slug)
+          : path.join(outputRoot, "tr", page.slug);
       await writeFile(path.join(pageDir, "index.html"), html);
     }
   }
 
-  await writeFile(path.join(repoRoot, ".nojekyll"), `${config.brandName} legal static site export.\n`);
-  console.log(`Legal site exported to ${repoRoot}`);
+  await writeFile(path.join(outputRoot, ".nojekyll"), `${config.brandName} legal static site export.\n`);
+  console.log(`Legal site exported to ${outputRoot}`);
 }
 
 main().catch((error) => {

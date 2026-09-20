@@ -1,119 +1,112 @@
 # Gizlilik Politikası
 
-Son güncelleme: 13 Nisan 2026
+Yürürlük tarihi: 20 Eylül 2026
+Son güncelleme: 20 Eylül 2026
 
-Bu Gizlilik Politikası, Wardrobe mobil uygulamasını ve ilgili hizmetleri kullandığınızda Wardrobe'un hangi verileri topladığını, nasıl kullandığını, nasıl sakladığını ve nasıl paylaştığını açıklar.
+Bu Gizlilik Politikası, Wardrobe mobil uygulamasında ve bağlantılı hizmetlerde bilgilerin nasıl işlendiğini açıklar. Wardrobe, bireysel işletmeci **Yusuf Copur** tarafından işletilir.
 
-## 1. Toplanan Veriler
+**Gizlilik ve destek iletişimi:** [SUPPORT EMAIL]
 
-Toplanabilecek veri kategorileri şunlardır:
+## 1. Wardrobe'u kimler kullanabilir?
 
-### Hesap ve profil verileri
-- E-posta adresi ve kimlik doğrulama bilgileri
-- Gender presentation ve stil tercihleri dahil profil tercihleri
-- Onboarding durumu gibi temel hesap metadataları
+Wardrobe en az 18 yaşındaki kişiler için tasarlanmıştır; ülkenizdeki daha yüksek asgari yaş uygulanıyorsa o yaş geçerlidir. Çocukların bilerek hesap oluşturmasına izin vermeyiz.
 
-### Dolap ürünü verileri
-- Wardrobe item için yüklediğiniz fotoğraflar
-- Kategori, renk, materyal, style score, anchor sınıflandırması ve benzeri analiz çıktıları
+## 2. İşlediğimiz bilgiler
 
-### Üretilen kombin verileri
-- BFMW ile üretilen kombin görselleri
-- Üretilen kombinlere bağlı style, substyle, gender, theme, slot ve render metadataları
-- Kombin üretimi, kaydı ve gösterimi için gerekli prompt, validation ve compatibility metadataları
+### Hesap ve profil bilgileri
 
-### Abonelik ve entitlement verileri
-- RevenueCat ve ilgili uygulama mağazası altyapısından gelen abonelik durumu, entitlement durumu, mağaza bilgisi ve sona erme bilgileri
+- e-posta adresi ve e-posta, Apple veya Google girişinden gelen kimlik bilgileri
+- ad, yaş, gender presentation, public handle, dil, tema ve stil tercihleri
+- politika sürümü ve kabul zamanı dahil yasal onay kayıtları
 
-### Teknik ve kullanım verileri
-- Kombin üretim işlerini yürütmek için gerekli uygulama oturum ve kuyruk bilgileri
-- Hizmeti işletmek, güvenli hale getirmek ve hataları gidermek için gerekli log, tanılama ve telemetri verileri
+E-postanız, adınız ve yaşınız hesap bilgileridir. Public handle, sizin yayımladığınız veya uygulamanın kamuya açık AI yüzeyine eklediği içeriklerin yanında gösterilir.
 
-## 2. Verileri Nasıl Kullanıyoruz
+### Gardırop bilgileri
 
-Verileri şu amaçlarla kullanırız:
-- kullanıcı hesabını doğrulamak ve yönetmek
-- yüklenen wardrobe item'ları analiz etmek
-- kombin önerileri ve render'lar üretmek ve kaydetmek
-- style, substyle ve feed deneyimini kişiselleştirmek
-- global Community akışını işletmek
-- abonelik ve entitlement durumunu senkronize etmek
-- hizmet performansını iyileştirmek, hata ayıklamak ve güvenliği sağlamak
+- gardırop parçaları için yüklediğiniz fotoğraflar
+- kıyafet türü, renk, kalıp, desen, yapı ve kondisyon gibi analiz sonuçları
+- parça durumu, zaman damgaları ve storage yolları
 
-## 3. Wardrobe Fotoğrafları ile Generated Outfit'lar Arasındaki Fark
+Gardırop fotoğrafları ve parça kayıtları hesabınıza özeldir. Gardırop fotoğrafı, yalnızca uygulama içindeki AI onay adımından sonra analiz için OpenAI'ya gönderilir.
 
-Wardrobe item fotoğrafları ile generated outfit'lar aynı şekilde ele alınmaz.
+### AI üretim bilgileri
 
-### Wardrobe item fotoğrafları
-Wardrobe item fotoğrafları private hesap içeriğidir. Kullanıcıya özel storage path'lerinde tutulur ve Community akışında herkese açık gösterilmez.
+- seçilen parça, stil yönü, gender presentation ve üretim talimatları
+- üretilen kombin görselleri, parça ayrıntıları, estetik metadata, doğrulama durumu ve üretim geçmişi
+- hizmeti çalıştırmak için gereken aşama, tekrar deneme, hata ve tahmini maliyet kayıtları
 
-### Generated outfit'lar
-BFMW ile üretilen kombinler otomatik olarak Community akışına eklenir. Bu davranış için ayrıca uygulama içi bir opt-in istemeyiz.
+Production üretim hattı Dialect closed-look motorudur (`closed-look-2`). Seçilen üst veya alt parçanın etrafında bir kombin oluşturur.
 
-Community görünürlüğü izleyene göre filtrelenir:
-- izleyenin gender presentation bağlamı
-- izleyenin aktif uygulama teması, yani black-studio veya white-studio varyasyonu
+### Sosyal ve Community bilgileri
 
-Bu nedenle generated outfit'lar global bir Community havuzunda tutulur; ancak her kullanıcı tüm havuzu filtresiz görmez.
+- public AI kombinleri, uygulama içinde sizin açıkça yüklediğiniz public outfit fotoğrafları, açıklamalar, beğeniler, raporlar ve engelleme işlemleri
+- diğer giriş yapmış kullanıcılara açık içeriklerin yanında görünen public handle
 
-Community'de yayınlanan generated outfit'lar private hesap içeriği olarak değil, public Community içeriği olarak değerlendirilmelidir. Uygulamada bu şu anlama gelir:
-- ilgili filtrelerle eşleşen diğer kullanıcılar bu içerikleri uygulama içindeki Community deneyiminde görebilir
-- generated outfit görselleri, Community deneyimini işletmek için kullanılan public veya geniş erişilebilir URL'ler üzerinden sunulabilir
-- BFMW ile private kalmasını beklediğiniz içerikleri üretmemeli veya yüklememelisiniz
+AI kombini üretim tamamlandığında Atelier/Community yüzeyine eklenir. Kendi kombinini detay ekranından geri çekebilirsin. Gerçek outfit fotoğrafı yalnızca Community paylaşım akışından açıkça yüklediğinde herkese açılır. Community yüklemeleri yayınlanmadan önce JPEG olarak yeniden kodlanır; GPS gibi kamera metadata'sı bu işlemde kaldırılır.
 
-## 4. Verileri Kimlerle İşliyoruz
+### Abonelik ve satın alma bilgileri
 
-Hizmeti çalıştırmak için verileri aşağıdaki servis sağlayıcılarla işleyebilir veya paylaşabiliriz:
-- Supabase: kimlik doğrulama, veritabanı, depolama ve edge function altyapısı
-- OpenAI: görsel üretim ve kombinle ilgili yapay zeka işlemleri
-- RevenueCat: abonelik ve entitlement yönetimi
-- Apple App Store ve Google Play faturalandırma sistemleri: abonelik satın alma veya geri yükleme işlemleri sırasında
+Ücretli planlar veya kredi paketleri etkinse RevenueCat ile Apple App Store veya Google Play'den gelen entitlement, plan, kalan kota, kredi, mağaza, yenileme/bitiş durumu ve sağlayıcı kimliklerini işleriz. Uygulama tam kart numaranı almaz.
 
-Ayrıca Community'de yayınlanan generated outfit'ları, yukarıda açıklanan filtreleme mantığına tabi olarak ürünün Community işlevi kapsamında diğer kullanıcılara sunarız.
+### Teknik ve güvenlik bilgileri
 
-Wardrobe item fotoğraflarınızı Community akışında herkese açık göstermeyiz.
+Wardrobe'u işletmek, korumak, hataları gidermek ve geliştirmek için oturum bilgisi, uygulama/cihaz tanılaması, kota olayları, güvenlik olayları, moderasyon raporları ve servis logları işlenir.
 
-## 5. Saklama Süreleri
+## 3. Bilgileri nasıl kullanıyoruz?
 
-Farklı veri türleri farklı sürelerle saklanır:
+Bilgileri şu amaçlarla kullanırız:
 
-- Hesap ve profil verileri: hesap yaşam döngüsü boyunca veya daha önce silinirse o ana kadar
-- Wardrobe item fotoğrafları ve özel dolap verileri: siz silene kadar veya hesap silme işlemiyle kaldırılana kadar
-- Generated outfit kayıtları: kaydedilen görünümler, üretim geçmişi ve Community özelliklerini işletmek için gerekli süre boyunca
-- Community'de yayınlanan generated outfit'lar: hesap silinse bile kullanıcı kimliği kaldırılmış şekilde Community'de kalabilir
-- Abonelik verileri: entitlement yönetimi, faturalandırma desteği, uyumluluk ve kötüye kullanım önleme amaçlarıyla gerekli olduğu sürece
+- hesap oluşturmak, oturum açmak, güvenliği sağlamak ve şifre sıfırlama e-postası göndermek
+- onayından sonra gardırop parçalarını analiz etmek
+- kombin üretmek, kaydetmek, göstermek, geri çekmek ve geri yüklemek
+- Atelier, Feed, beğeni, rapor, engelleme ve kullanıcı paylaşımı özelliklerini işletmek
+- kota, abonelik, rate limit ve kötüye kullanım önlemlerini uygulamak
+- sağlayıcı kullanımını, tekrar denemeleri ve yaklaşık AI işletme maliyetini ölçmek
+- destek, gizlilik, hesap silme ve faturalandırma taleplerini yanıtlamak
+- hukuki, güvenlik, muhasebe ve dolandırıcılık önleme yükümlülüklerini yerine getirmek
 
-## 6. Hesap Silme
+## 4. Neler özel, neler herkese açık?
 
-Hesap silme işlemini uygulama içinden başlatabilirsiniz.
+- Gardırop fotoğrafları, parça analizleri, e-posta, ad, yaş ve abonelik kayıtları diğer kullanıcılara açık değildir.
+- Public AI kombinleri ve Community gönderileriyle birlikte public handle görünür.
+- Tamamlanan AI kombinleri mevcut ürün tasarımında uygulama içindeki kamuya açık Atelier/Feed yüzeyine yayımlanır. Üretilen görseller public URL'ler üzerinden sunulabilir. Özel kalmasını beklediğin içerikleri Wardrobe'da üretmemelisin.
+- Community'ye yüklediğin fotoğraf giriş yapmış kullanıcılara açıktır ve silinene kadar cihaz veya ağ önbelleklerinde kontrolümüz dışında kalabilir.
+- Rapor ve engelleme işlemleri moderasyon için kullanılır; public profil içeriği olarak gösterilmez.
 
-Hesabınızı sildiğinizde:
-- profil verileriniz kaldırılır
-- wardrobe item'larınız ve özel yüklediğiniz dolap görselleri kaldırılır
-- hesabınıza bağlı private generated data kaldırılır
-- Community'de yayınlanmış generated outfit'lar, hesap kimliği kaldırılmış şekilde kalmaya devam edebilir
-- Community'de kalmaya devam eden içeriklere ait public veya geniş erişilebilir generated outfit URL'leri de çalışmaya devam edebilir
+## 5. Hizmet sağlayıcılar ve paylaşım
 
-## 7. Güvenlik
+Wardrobe'u işletmek için şu hizmet sağlayıcılarını kullanırız:
 
-Saklanan verileri korumak için makul teknik ve organizasyonel önlemler kullanırız. Ancak hiçbir aktarım veya depolama yöntemi tamamen güvenli değildir.
+- **Supabase:** kimlik doğrulama, veritabanı, storage ve server function altyapısı
+- **OpenAI:** uygulamanın istediği kıyafet analizi, metin planlama ve görsel üretimi
+- **RevenueCat:** satın alma etkin olduğunda abonelik ve entitlement senkronizasyonu
+- **Apple App Store ve Google Play:** gerektiğinde mağaza doğrulaması ve faturalandırma
+- hizmeti sunmak için gerekli altyapı, izleme, e-posta ve hosting sağlayıcıları
 
-## 8. Çocukların Kullanımı
+Gardırop fotoğraflarını veya profil bilgilerini satmayız. Public AI kombinleri ve Community gönderileri, sosyal özelliklerin parçası olarak diğer kullanıcılara sunulur.
 
-Wardrobe, yürürlükteki hukuka göre ebeveyn izni olmaksızın kullanılamayacak yaş grubuna yönelik tasarlanmamıştır.
+## 6. Uluslararası işleme
 
-## 9. Uluslararası İşleme
+Bu sağlayıcılar bilgileri yaşadığın ülke dışındaki ülkelerde işleyebilir. Geçerli hukukun gerektirdiği önlemleri ve sağlayıcıların sözleşme şartlarını uygularız.
 
-Verileriniz, bulunduğunuz ülke dışındaki altyapı ve servis sağlayıcılar tarafından işlenebilir.
+## 7. Saklama ve silme
 
-## 10. Bu Politikanın Güncellenmesi
+Hesap bilgilerini ve özel gardırop verilerini hesabın aktif olduğu sürece saklarız. Güvenlik, hukuk, muhasebe, dolandırıcılık önleme veya yedekleme için gerekli sınırlı kayıtlar daha uzun tutulabilir. AI maliyet ve operasyon kayıtlarına erişim sınırlandırılır ve yalnızca gerekli süre boyunca tutulur.
 
-Bu Gizlilik Politikası zaman zaman güncellenebilir. Güncel sürüm uygulama içinden ve/veya herkese açık policy URL'leri üzerinden sunulur.
+Hesabını uygulamada **Ayarlar → Hesabı Sil** yolundan silebilirsin. Başarılı silme işlemi hesabı, profili, gardırop kayıtlarını ve özel görselleri, üretilen kombin kayıtlarını ve görsellerini, Community gönderilerini, beğenileri, raporları, engelleme kayıtlarını ve silme akışının kontrol ettiği kullanıcıya bağlı entitlement/operasyon kayıtlarını kaldırır. Mağaza abonelikleri Apple veya Google üzerinden ayrıca yönetilir; Wardrobe hesabını silmek aboneliği kendiliğinden iptal etmez.
 
-## 11. İletişim
+Güvenli yedeklerde veya hukuk/güvenlik loglarında kalan sınırlı kayıtlar, hukuk veya meşru güvenlik operasyonu için gereken süreden sonra silinir ya da kullanıcıyla bağı koparılır.
 
-Gizlilik ve veri konuları için Wardrobe'un resmi destek kanalını kullanın:
+## 8. Seçimlerin ve hakların
 
-- Destek URL: `https://legal-ycupufs-projects.vercel.app/support`
-- Destek E-postası: `help@wardrobeinfo.com`
-- Gizlilik Politikası URL: `https://legal-ycupufs-projects.vercel.app/privacy`
+Bulunduğun ülkeye göre kişisel verilere erişme, düzeltme, silme, işlemeyi kısıtlama, itiraz etme veya verileri alma hakların olabilir. Talebini [SUPPORT EMAIL] adresine gönder. Yanıt vermeden önce hesap sahipliğini doğrulamamız gerekebilir.
+
+Profil tercihlerini değiştirebilir, kendi AI kombinlerini geri çekebilir, gardırop parçalarını silebilir, Community gönderilerini kaldırabilir, engellediğin kullanıcıları yönetebilir ve hesabını uygulama içinden silebilirsin.
+
+## 9. AI ve üretilen içerik
+
+Wardrobe AI ve üretilmiş görseller kullanır. Sonuçlar hatalı, uygunsuz veya kullanılamaz olabilir. Üretilen kombinler yaratıcı yardımcıdır; profesyonel stil, tıbbi, hukuki, finansal veya güvenlik tavsiyesi değildir. Bir sonuca güvenmeden önce onu kontrol etmek senin sorumluluğundadır.
+
+## 10. Değişiklikler ve iletişim
+
+Hizmet veya hukuk değiştiğinde bu politikayı güncelleyebiliriz. Güncel sürüm uygulamada ve bu sitede bağlantılıdır. Gizlilik soruları için [SUPPORT EMAIL] adresine yaz.

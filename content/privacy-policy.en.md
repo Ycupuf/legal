@@ -1,119 +1,112 @@
 # Privacy Policy
 
-Last updated: April 13, 2026
+Effective date: 20 September 2026
+Last updated: 20 September 2026
 
-This Privacy Policy explains how Wardrobe collects, uses, stores, and shares information when you use the Wardrobe mobile application and related services.
+This Privacy Policy describes how Wardrobe processes information in the Wardrobe mobile application and related services. Wardrobe is operated by **Yusuf Copur**, an individual operator.
 
-## 1. What We Collect
+**Privacy and support contact:** [SUPPORT EMAIL]
 
-We may collect the following categories of information:
+## 1. Who can use Wardrobe
+
+Wardrobe is intended for people who are at least 18 years old, or the minimum age required in their country where that is higher. We do not knowingly allow children to create accounts.
+
+## 2. Information we process
 
 ### Account and profile information
-- Email address and authentication identifiers
-- Profile preferences, including gender presentation and style-related settings
-- Basic account metadata such as onboarding status
 
-### Wardrobe item information
-- Photos you upload for wardrobe items
-- Item analysis results, including category, color, material, style scores, anchor classification, and related metadata
+- email address and authentication identifiers from email, Apple, or Google sign-in
+- name, age, gender presentation, public handle, language, theme, and style preferences
+- legal-consent records, including the policy version and time accepted
 
-### Generated outfit information
-- BFMW-generated outfit images
-- Style, substyle, gender, theme, slot, and render metadata associated with generated outfits
-- Prompt, validation, and compatibility metadata required to generate, save, and display looks
+Your email, name, and age are account information. Your public handle is shown next to content you publish or that the app publishes to the public AI surface.
 
-### Subscription and entitlement information
-- Subscription status, entitlement status, store, expiration data, and related purchase state received through RevenueCat and the underlying app store platform
+### Wardrobe information
 
-### Technical and usage information
-- App session and queue state required to process generation jobs
-- Diagnostics, logs, and service telemetry needed to operate and secure the app
+- photos you upload for wardrobe items
+- garment descriptions and analysis results, such as garment type, colour, fit, pattern, construction, and condition
+- item status, timestamps, and storage paths
 
-## 2. How We Use Information
+Wardrobe photos and item records are private to your account. A wardrobe photo is sent to OpenAI for analysis only after the in-app AI consent step.
+
+### AI generation information
+
+- the selected garment, style direction, gender presentation, and generation instructions
+- generated outfit images, garment details, aesthetic metadata, validation status, and generation history
+- operational stages, retry status, error information, and an estimated cost record used to run the service
+
+The production generation pipeline is the Dialect closed-look engine (`closed-look-2`). It creates a look around the selected top or bottom garment.
+
+### Social and Community information
+
+- public AI looks, public outfit photos you explicitly upload, captions, likes, reports, and block-list actions
+- your public handle on content visible to other signed-in users
+
+An AI look is added to the Atelier/Community surface when generation completes. You can retract your own AI look from its detail screen. A real outfit photo is public only when you explicitly upload it through the Community share flow. Community uploads are re-encoded as JPEGs before publication to remove camera metadata such as GPS information.
+
+### Subscription and purchase information
+
+If paid plans or credit packs are enabled, we process entitlement status, plan, remaining quota, credits, store, renewal/expiration state, and provider identifiers received from RevenueCat and Apple App Store or Google Play. The app does not receive your full payment-card number.
+
+### Technical and safety information
+
+We process session information, device/app diagnostics, rate-limit events, security events, moderation reports, and service logs to operate, protect, troubleshoot, and improve Wardrobe.
+
+## 3. How we use information
 
 We use information to:
-- Authenticate users and maintain accounts
-- Analyze uploaded wardrobe items
-- Generate and save outfit recommendations and renders
-- Personalize style, substyle, and feed experiences
-- Operate the global Community feed
-- Sync subscription and entitlement state
-- Debug, secure, and improve service performance
 
-## 3. Wardrobe Photos vs. Generated Outfits
+- create and secure accounts, sign in users, and send password-reset messages
+- analyse wardrobe garments after consent
+- generate, save, display, retract, and restore outfit looks
+- provide Atelier, Feed, likes, reports, blocks, and user-post features
+- enforce quotas, subscriptions, rate limits, and abuse prevention
+- measure provider usage, retry behaviour, and approximate AI operating cost
+- answer support, privacy, deletion, and billing requests
+- meet legal, security, accounting, and fraud-prevention obligations
 
-Wardrobe item photos and generated outfits are treated differently.
+## 4. What is private and what is public
 
-### Wardrobe item photos
-Wardrobe item photos are private account content. They are stored in user-scoped storage paths and are not displayed publicly in the Community feed.
+- Wardrobe item photos, garment analyses, email, name, age, and subscription records are not public to other users.
+- Your public handle appears with public AI looks and public Community posts.
+- Completed AI looks are published to the public in-app Atelier/Feed surface by the current product design. Generated image files may use publicly accessible image URLs. Do not use Wardrobe to generate content that you expect to remain private.
+- A photo you share in Community is public to signed-in users and may remain cached by a device or network outside our control until it is deleted.
+- Reports and blocks are used for moderation and are not shown as public profile content.
 
-### Generated outfits
-BFMW-generated outfits are automatically published to the Community feed. We do not ask for a separate in-app opt-in for this behavior.
+## 5. Service providers and sharing
 
-Community visibility is filtered for viewers based on:
-- the viewer's gender presentation context, and
-- the viewer's active app theme, including black-studio and white-studio render variants.
+We use service providers to operate Wardrobe:
 
-This means generated outfits are stored in a global Community pool, but viewers do not see the entire pool without filtering.
+- **Supabase** for authentication, database, storage, and server functions
+- **OpenAI** for garment analysis, text planning, and image generation requested by the app
+- **RevenueCat** for subscription and entitlement synchronization when purchases are enabled
+- **Apple App Store and Google Play** for store authentication and billing when applicable
+- infrastructure, monitoring, email, and hosting providers needed to deliver the service
 
-Community-published generated outfits should be treated as public Community content rather than private account content. In practice:
-- other users can view them inside the app's Community experience when they match the applicable filters
-- generated outfit images may be served from public or broadly accessible URLs used to operate the Community experience
-- you should not upload or generate content through BFMW if you expect Community-published generated outfits to remain private
+We do not sell wardrobe photos or user profile information. Public AI looks and Community posts are shared with other users as part of the social features described above.
 
-## 4. How We Share Information
+## 6. International processing
 
-We may share or process information with service providers that help us run the app, including:
-- Supabase, for authentication, database, storage, and server functions
-- OpenAI, for image generation and outfit-related AI processing
-- RevenueCat, for subscription and entitlement processing
-- Apple App Store and Google Play billing systems, when subscription purchases or restorations are involved
+These providers may process information in countries other than the country where you live. We use the safeguards required by applicable law and the providers' contractual terms.
 
-We also make Community-published generated outfits available to other users as part of the product's Community functionality, subject to the filtering logic described above.
+## 7. Retention and deletion
 
-We do not publicly display your wardrobe item photos as part of the Community feed.
+We retain account information and private wardrobe data while your account is active, or longer only where required for security, legal, accounting, fraud-prevention, or backup purposes. AI cost and operational records are retained only as long as needed for those purposes and are access-controlled.
 
-## 5. Data Retention
+You can delete your account in the app at **Settings → Delete Account**. A successful deletion removes the account, profile, wardrobe records and private images, generated outfit records and images, Community posts, likes, reports, block-list records, and user-linked entitlement/operational records that the deletion flow controls. Store subscriptions are managed separately through Apple or Google and are not automatically cancelled by deleting the Wardrobe account.
 
-We retain different data types for different periods:
+Limited records may remain in secured backups or legal/security logs for the period required by law or legitimate security operations, after which they are deleted or de-linked.
 
-- Account and profile data: during the account lifecycle unless deleted earlier
-- Wardrobe item photos and private wardrobe metadata: until deleted by you or removed through account deletion
-- Generated outfit records: retained as needed to operate saved looks, generation history, and Community features
-- Community-published generated outfits: may remain in the Community feed after account deletion in de-identified form, with account linkage removed
-- Subscription state: retained as needed for entitlement handling, billing support, compliance, and fraud prevention
+## 8. Your choices and rights
 
-## 6. Account Deletion
+Depending on where you live, you may have rights to access, correct, delete, restrict, object to, or export personal information. Contact [SUPPORT EMAIL] and describe the request. We may verify account ownership before responding.
 
-You can request account deletion from inside the app.
+You can change profile preferences, retract your own AI looks, delete wardrobe items, remove your Community posts, manage blocked users, and delete your account from the app.
 
-When you delete your account:
-- your profile data is removed
-- your wardrobe items and private uploaded wardrobe images are removed
-- private generated data linked to your account is removed
-- Community-published generated outfits may remain available in de-identified form, without your account identity attached
-- public or broadly accessible generated outfit image URLs that were created for Community operation may continue to resolve for Community content that remains available
+## 9. AI and generated content
 
-## 7. Security
+Wardrobe uses AI and generated imagery. Results can be inaccurate, unsuitable, or unavailable. Generated looks are creative assistance, not professional styling, medical, legal, financial, or safety advice. You are responsible for reviewing a result before relying on it.
 
-We use commercially reasonable technical and organizational measures to protect stored information. No method of transmission or storage is guaranteed to be completely secure.
+## 10. Changes and contact
 
-## 8. Children
-
-Wardrobe is not intended for children under the age required by applicable law to use the service without parental authorization.
-
-## 9. International Processing
-
-Your information may be processed by infrastructure and service providers in countries other than your own.
-
-## 10. Changes to This Policy
-
-We may update this Privacy Policy from time to time. The latest version will be made available through the app and/or public policy URLs.
-
-## 11. Contact
-
-For privacy or data questions, use Wardrobe's official support channel:
-
-- Support URL: `https://legal-ycupufs-projects.vercel.app/support`
-- Support Email: `help@wardrobeinfo.com`
-- Privacy URL: `https://legal-ycupufs-projects.vercel.app/privacy`
+We may update this policy when the service or law changes. The current version is linked in the app and on this site. For privacy questions, contact [SUPPORT EMAIL].

@@ -1,96 +1,64 @@
 # Terms of Service
 
-Last updated: April 13, 2026
+Effective date: 20 September 2026
+Last updated: 20 September 2026
 
-These Terms of Service govern your use of the Wardrobe mobile application and related services.
+These Terms govern your use of Wardrobe, an AI wardrobe and social outfit application operated by **Yusuf Copur**.
 
-## 1. Acceptance
+**Support:** [SUPPORT EMAIL]
 
-By creating an account or using Wardrobe, you agree to these Terms and to the Privacy Policy.
+## 1. Acceptance and eligibility
 
-## 2. Account Use
+By creating an account or using Wardrobe, you agree to these Terms and the Privacy Policy. You must be at least 18, or the higher minimum age required where you live. If you use Apple or Google sign-in, you remain responsible for the account created through that provider.
 
-You are responsible for:
-- maintaining control of your account
-- providing accurate account information
-- all activity performed through your account
+## 2. The service
 
-## 3. Wardrobe Content
+Wardrobe lets you upload private garment photos, receive AI garment analysis, generate outfits around a selected top or bottom, save and like looks, and participate in the public Atelier/Feed community. The production generator is the Dialect closed-look engine (`closed-look-2`). Features, limits, styles, quotas, and availability may change.
 
-You may upload wardrobe item photos and related information for private analysis and outfit generation. You must only upload content you have the right to use.
+## 3. Your content and public publication
 
-Wardrobe item photos are treated as private account content and are not automatically shown in the public Community feed.
+You must own or have permission to upload every garment photo, outfit photo, caption, and other content you submit. Do not upload another person's private image or sensitive information without permission.
 
-## 4. Generated Outfits and Community Publication
+Wardrobe item photos remain private. A completed AI look is published to the in-app Atelier/Feed surface under your public handle by the current product design. You can retract your own AI look from its detail screen. An outfit photo becomes public when you explicitly share it through Community. Public content may be delivered through publicly accessible image URLs.
 
-Wardrobe may generate outfit images, recommendations, and related metadata based on your uploads, preferences, and system logic.
+You retain rights you have in your content. You grant Wardrobe a limited licence to host, process, resize, cache, display, moderate, and deliver content as needed to provide the service and the public features you choose to use. This licence ends for private content when the content or account is deleted, subject to legally required records and technical backups.
 
-BFMW-generated outfits are automatically published to the Community feed. Wardrobe does not require a separate in-app opt-in for this publication behavior.
+## 4. AI output
 
-Community delivery is filtered for viewers based on gender presentation context and active app theme, but generated outfits are stored in a shared global Community pool.
+AI output can be inaccurate, incomplete, offensive, or unavailable. Wardrobe does not promise that an outfit will fit, be safe, be fashionable, be purchasable, or match the uploaded garment perfectly. AI output is creative assistance, not professional styling, medical, legal, financial, or safety advice. Review every result yourself.
 
-By using the service, you authorize Wardrobe to host, display, distribute, cache, and make available generated outfits within the app's Community experience under this system design.
+## 5. Community rules and moderation
 
-Community-published generated outfits are not treated as private wardrobe content. They may be visible to other users in the Community feed and may be delivered through public or broadly accessible asset URLs used to operate the service.
+You must not use Wardrobe to break the law, infringe rights, harass or threaten people, upload sexual or exploitative content involving minors, impersonate others, distribute malware, scrape the service, evade quotas, probe security controls, or interfere with the app or its providers.
 
-## 5. Your Rights in Uploaded Content
+You can report public content and block users. We may hide, remove, limit, or review content and accounts when reports, safety, legal obligations, or abuse-prevention systems require it.
 
-You retain rights you may have in your uploaded wardrobe photos and source materials, subject to the rights necessary for Wardrobe to operate the service.
+## 6. Accounts and security
 
-You grant Wardrobe a license to:
-- store uploaded materials
-- analyze uploaded materials
-- generate derivative outfit outputs
-- display generated outputs in the Community feed as described in these Terms and the Privacy Policy
-- create and serve the technical copies, caches, transformations, and delivery URLs reasonably required for Community functionality
+Keep your login credentials secure and provide accurate information. You are responsible for activity under your account until you notify us of unauthorized access. Password reset is handled through the email flow provided by the app.
 
-## 6. Prohibited Conduct
+## 7. Subscriptions, quotas, credits, and refunds
 
-You may not:
-- use the service unlawfully
-- upload content you do not have the right to use
-- abuse, probe, or disrupt the app, services, or infrastructure
-- attempt to reverse engineer restricted service components where prohibited by law
-- use the service to generate content that violates applicable law or platform policy
+Some generation capacity or features may require a plan or credit purchase. Current price, quota, renewal date, and remaining balance are shown in the app when available. Apple App Store or Google Play processes the purchase; RevenueCat synchronizes the store entitlement when enabled.
 
-## 7. Subscriptions and Billing
+Renewal, cancellation, refunds, and payment failures are governed by the applicable store rules and your store account. Deleting a Wardrobe account does not cancel a store subscription. Manage or cancel it in Apple or Google account settings. Credits and quota are granted only after the server verifies the purchase and may be withheld or corrected when a purchase is reversed, refunded, fraudulent, or duplicated.
 
-Some features may require a paid subscription or entitlement.
+## 8. Account deletion
 
-Subscriptions may be purchased and managed through Apple, Google, RevenueCat, or related billing infrastructure. Billing, renewal, cancellation, refund handling, and store-side purchase terms may also be governed by the relevant app store provider.
+You can delete your account in **Settings → Delete Account**. The deletion flow removes your profile, wardrobe records and private images, generated looks and images, Community posts, likes, reports, blocks, and other user-linked records it controls. Store subscriptions must be cancelled separately with Apple or Google. Limited backup, legal, security, or accounting records may remain for the required period.
 
-## 8. Service Changes
+## 9. Suspension and termination
 
-Wardrobe may update, improve, limit, or remove features, including Community, BFMW generation, style systems, and subscription offerings.
+We may suspend or terminate access for a serious or repeated breach, abuse, security risk, legal requirement, or operational necessity. You may stop using Wardrobe and delete your account at any time.
 
-## 9. Termination
+## 10. Availability and liability
 
-Wardrobe may suspend or terminate access for violations of these Terms, abuse, security risk, or operational necessity.
+Wardrobe is provided on an “as available” basis to the extent permitted by law. We do not guarantee uninterrupted service, a specific generation time, an error-free result, or preservation of public content. Nothing in these Terms limits rights that cannot legally be limited. Any remaining limitation of liability is subject to applicable law.
 
-You may stop using the service at any time and may delete your account from within the app.
+## 11. Changes
 
-## 10. Account Deletion and Public Community Content
+We may update these Terms when the service or law changes. We will show a new policy version in the app where appropriate. Continued use after the effective date means you accept the updated Terms where permitted by law.
 
-When you delete your account, private account-linked data is removed under the app's deletion flow.
+## 12. Contact and governing law
 
-Community-published generated outfits may remain available in de-identified form after account deletion, with the account relationship removed.
-
-If Community-published generated outfits remain available after account deletion, Wardrobe may also continue to retain and serve the associated generated image assets needed to operate that remaining Community content.
-
-## 11. Disclaimers
-
-The service is provided on an "as is" and "as available" basis to the extent permitted by law.
-
-Wardrobe does not guarantee uninterrupted availability, exact stylistic outcomes, or error-free operation.
-
-## 12. Limitation of Liability
-
-To the extent permitted by law, Wardrobe and its operators are not liable for indirect, incidental, consequential, special, or punitive damages arising from use of the service.
-
-## 13. Contact
-
-For support or legal questions, use Wardrobe's official support channel:
-
-- Support URL: `https://legal-ycupufs-projects.vercel.app/support`
-- Support Email: `help@wardrobeinfo.com`
-- Terms URL: `https://legal-ycupufs-projects.vercel.app/terms`
+For support, privacy, deletion, safety, or billing questions, contact [SUPPORT EMAIL].

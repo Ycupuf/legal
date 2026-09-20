@@ -3,6 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "scripts": {
+    "check": "node ./scripts/check-legal-content.mjs",
     "build": "node ./scripts/build-legal-site.mjs"
   }
 }

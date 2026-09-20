@@ -1,34 +1,35 @@
-# Hesap Silme Politikası
+# Hesap Silme
 
-Son güncelleme: 13 Nisan 2026
+Yürürlük tarihi: 20 Eylül 2026
+Son güncelleme: 20 Eylül 2026
 
-Hesap silme işlemini Wardrobe uygulaması içinden başlatabilirsiniz.
+Wardrobe hesabını uygulama içinden kalıcı olarak silebilirsin. Wardrobe, Yusuf Copur tarafından işletilir.
 
 ## Uygulama içi yol
 
-Ayarlar → Hesabı Sil
+**Ayarlar → Hesabı Sil**
 
-## Neler silinir
+Silme geri alınamayacağı için uygulama onay ister. İstek başarılı olursa oturum kapatılır ve hesap kaldırılır.
 
-Hesap silme başarılı olduğunda Wardrobe şunları kaldırır:
-- profil verileriniz
-- wardrobe item kayıtlarınız
-- private wardrobe fotoğraflarınız
-- hesabınıza bağlı private kayıtlar ve private generated data
-- dolap yüklemelerinizle ilişkili kullanıcıya özel private storage içeriği
+## Neler kaldırılır?
 
-## Neler kalabilir
+Silme akışı, Wardrobe'un kontrol ettiği ölçüde şunları kaldırır:
 
-Bir BFMW generated outfit daha önce Community akışında yayınlandıysa, bu generated outfit hesap silindikten sonra da de-identify edilmiş biçimde görünmeye devam edebilir.
+- kimlik doğrulama hesabın ve profilin
+- gardırop parça kayıtları, kıyafet analizleri ve özel gardırop görselleri
+- üretilen kombin kayıtları, planları, metadata'sı ve üretilen görseller
+- public AI kombinlerin ve Community outfit fotoğraf gönderilerin
+- beğeniler, raporlar, engelleme kayıtları, entitlement kayıtları ve kullanıcıya bağlı operasyon kayıtları
+- Wardrobe, generated-outfits ve Community storage bucket'larındaki kullanıcıya özel nesneler
 
-Bu durumda:
-- hesap ilişkisi kaldırılır
-- kayıt Community havuzunda kalabilir
-- private wardrobe fotoğrafları bu süreçte public hale gelmez
-- içeriğin Community'de erişilebilir kalması için gerekli generated image asset'leri de kalabilir
+## Otomatik iptal edilmeyenler
 
-## Destek
+Wardrobe hesabını silmek **Apple App Store veya Google Play aboneliğini iptal etmez**. Aboneliği satın aldığın mağaza hesabından ayrıca iptal etmelisin. Mağaza makbuzları ve hukuken tutulması gereken sağlayıcı kayıtları mağazanın kontrolündedir ve kendi saklama kuralları olabilir.
 
-Silme ile ilgili sorular için Wardrobe'un resmi destek kanalını kullanın:
-- `https://legal-ycupufs-projects.vercel.app/support`
-- `help@wardrobeinfo.com`
+## Sınırlı saklama
+
+Şifreli yedeklerde veya güvenlik, dolandırıcılık önleme, muhasebe ya da hukuk kayıtlarında sınırlı bir kopya, o amaç için gereken süre boyunca kalabilir. Bu kayıtlara erişim sınırlıdır; süre dolunca silinir veya kullanıcı bağlantısı koparılır. Normal silme akışında silinen kullanıcının AI kombini veya Community fotoğrafı için public bir kopyayı Wardrobe tutmaz.
+
+## Uygulamaya erişemiyorsan
+
+Hesap adresinden **[SUPPORT EMAIL]** adresine “Hesap silme talebi” başlığıyla yaz. Hesabı kontrol ettiğini makul biçimde doğrulamanı isteyebiliriz. E-posta ile asla şifre, kart numarası veya özel gardırop fotoğrafı gönderme.

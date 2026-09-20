@@ -1,34 +1,35 @@
-# Account Deletion Policy
+# Account Deletion
 
-Last updated: April 13, 2026
+Effective date: 20 September 2026
+Last updated: 20 September 2026
 
-You can request account deletion from inside the Wardrobe app.
+You can permanently delete your Wardrobe account from inside the app. Wardrobe is operated by Yusuf Copur.
 
 ## In-app path
 
-Settings → Delete Account
+**Settings → Delete Account**
 
-## What is deleted
+The app asks for confirmation because deletion cannot be undone. If the request succeeds, the session is signed out and the account is removed.
 
-When account deletion succeeds, Wardrobe removes:
-- your profile data
-- your wardrobe item records
-- your private wardrobe item photos
-- your saved private data and private generated data linked to your account
-- user-scoped private storage content associated with your wardrobe uploads
+## What is removed
 
-## What may remain
+The deletion flow removes, where controlled by Wardrobe:
 
-If a BFMW-generated outfit was already published to the Community feed, that generated outfit may remain visible after account deletion in de-identified form.
+- your authentication account and profile
+- wardrobe item records, garment analyses, and private wardrobe images
+- generated outfit records, plans, metadata, and generated image files
+- your public AI looks and Community outfit-photo posts
+- likes, reports, block-list records, entitlement records, and user-linked operational records
+- user-scoped objects in the Wardrobe, generated-outfits, and Community storage buckets
 
-In that case:
-- the account relationship is removed
-- the record may remain in the Community pool
-- private wardrobe item photos are not made public through this process
-- generated image assets required to keep that Community content available may also remain
+## What is not automatically cancelled
 
-## Support
+Deleting a Wardrobe account does **not** cancel an Apple App Store or Google Play subscription. Cancel the subscription separately in the store account used to purchase it. Store receipts and legally required provider records are controlled by the store and may have their own retention rules.
 
-If you have questions about deletion, use Wardrobe's official support channel:
-- `https://legal-ycupufs-projects.vercel.app/support`
-- `help@wardrobeinfo.com`
+## Limited retention
+
+A limited copy may remain in encrypted backups or security, fraud-prevention, accounting, or legal records for the period required for that purpose. These records are access-controlled and are deleted or de-linked when the retention period ends. Wardrobe does not keep a public copy of a deleted user's AI look or Community photo as part of the normal deletion flow.
+
+## If you cannot access the app
+
+Email **[SUPPORT EMAIL]** from the account address and include “Account deletion request”. We may ask for reasonable proof that you control the account. Never send a password, payment-card number, or private wardrobe photo by email.

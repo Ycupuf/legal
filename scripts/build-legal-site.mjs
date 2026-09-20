@@ -198,9 +198,9 @@ function createSupportContent(config) {
 <p>You can contact support directly at <a href="mailto:${config.supportEmail}">${config.supportEmail}</a>.</p>
 <p>For public policy pages, use the links below:</p>
 <ul>
-  <li><a href="${config.baseUrl}/privacy">Privacy Policy</a></li>
-  <li><a href="${config.baseUrl}/terms">Terms of Service</a></li>
-  <li><a href="${config.baseUrl}/account-deletion">Account Deletion</a></li>
+  <li><a href="/privacy/">Privacy Policy</a></li>
+  <li><a href="/terms/">Terms of Service</a></li>
+  <li><a href="/account-deletion/">Account Deletion</a></li>
 </ul>
 <h2>Common Requests</h2>
 <ul>
@@ -219,9 +219,9 @@ function createSupportContent(config) {
 <p>Doğrudan destek için <a href="mailto:${config.supportEmail}">${config.supportEmail}</a> adresine yazabilirsiniz.</p>
 <p>Public policy sayfaları için aşağıdaki bağlantıları kullanabilirsiniz:</p>
 <ul>
-  <li><a href="${config.baseUrl}/privacy">Gizlilik Politikası</a></li>
-  <li><a href="${config.baseUrl}/terms">Kullanım Koşulları</a></li>
-  <li><a href="${config.baseUrl}/account-deletion">Hesap Silme</a></li>
+  <li><a href="/tr/privacy/">Gizlilik Politikası</a></li>
+  <li><a href="/tr/terms/">Kullanım Koşulları</a></li>
+  <li><a href="/tr/account-deletion/">Hesap Silme</a></li>
 </ul>
 <h2>Yaygın Talepler</h2>
 <ul>
@@ -263,7 +263,9 @@ function escapeHtml(input) {
 }
 
 function renderInline(input) {
-  return escapeHtml(input).replace(/`([^`]+)`/g, "<code>$1</code>");
+  return escapeHtml(input)
+    .replace(/`([^`]+)`/g, "<code>$1</code>")
+    .replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>");
 }
 
 function markdownToHtml(markdown) {
@@ -366,7 +368,7 @@ function renderPageShell({ config, pages, language, title, slug, bodyHtml }) {
   const heroCopy =
     language === "en"
       ? `Public legal pages for ${config.brandName}. These pages are designed to be exported and hosted separately from the app repository.`
-      : `${config.brandName} icin herkese acik hukuki sayfalar. Bu sayfalar uygulama deposundan ayri olarak export edilip yayinlanmak icin hazirlandi.`;
+      : `${config.brandName} için herkese açık hukuki sayfalar. Bu sayfalar uygulama deposundan ayrı olarak export edilip yayınlanmak için hazırlandı.`;
 
   return `<!doctype html>
 <html lang="${language}">
@@ -407,15 +409,15 @@ function renderHome({ config, pages, language }) {
   const description =
     language === "en"
       ? `This static site contains the public Privacy Policy, Terms of Service, Account Deletion, and Support pages for ${config.brandName}.`
-      : `Bu statik site, ${config.brandName} icin herkese acik Gizlilik Politikasi, Kullanim Kosullari, Hesap Silme ve Destek sayfalarini icerir.`;
+      : `Bu statik site, ${config.brandName} için herkese açık Gizlilik Politikası, Kullanım Koşulları, Hesap Silme ve Destek sayfalarını içerir.`;
   const hrefBase = language === "en" ? "" : "/tr";
 
   const bodyHtml = `
 <h1>${title}</h1>
 <p>${description}</p>
 <ul>
-  <li><a href="${hrefBase}/privacy/">${language === "en" ? "Privacy Policy" : "Gizlilik Politikasi"}</a></li>
-  <li><a href="${hrefBase}/terms/">${language === "en" ? "Terms of Service" : "Kullanim Kosullari"}</a></li>
+  <li><a href="${hrefBase}/privacy/">${language === "en" ? "Privacy Policy" : "Gizlilik Politikası"}</a></li>
+  <li><a href="${hrefBase}/terms/">${language === "en" ? "Terms of Service" : "Kullanım Koşulları"}</a></li>
   <li><a href="${hrefBase}/account-deletion/">${language === "en" ? "Account Deletion" : "Hesap Silme"}</a></li>
   <li><a href="${hrefBase}/support/">${language === "en" ? "Support" : "Destek"}</a></li>
 </ul>
@@ -448,8 +450,13 @@ async function cleanOutput() {
 
 async function renderMarkdownFile(filePath, config) {
   const raw = await fs.readFile(filePath, "utf8");
+  const resolved = raw.replaceAll("[SUPPORT EMAIL]", config.supportEmail || "");
+  const unresolved = [...resolved.matchAll(/\[[A-Z][A-Z0-9 _-]+\]/g)].map((match) => match[0]);
+  if (unresolved.length) {
+    throw new Error(`${filePath} still contains unresolved legal placeholders: ${[...new Set(unresolved)].join(", ")}`);
+  }
   return markdownToHtml(
-    raw
+    resolved
       .replaceAll("https://your-domain.com", config.baseUrl)
       .replaceAll("support@your-domain.com", config.supportEmail || "")
   );
